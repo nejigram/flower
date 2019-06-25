@@ -1,0 +1,474 @@
+@charset "utf-8";
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Playfair+Display|Special+Elite|Noto+Sans+JP|Noto+Serif+JP|Sawarabi+Mincho|Sawarabi+Gothic|Amiri|Markazi+Text|Cardo|Lato|Montserrat|Open+Sans|Oswald|Raleway|Roboto|Josefin+Sans|Quicksand|Rajdhani|Slabo+13px|Caveat|Courgette|Satisfy|Staatliches&display=swap');
+
+@font-face {
+  font-family: '8bitOperatorPlus-Bold';
+  src: url("../assets/fonts/8bitOperatorPlus-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/8bitOperatorPlus-Bold.woff") format("woff"), url("../assets/fonts/8bitOperatorPlus-Bold.ttf") format("truetype"), url("../assets/fonts/8bitOperatorPlus-Bold.svg#8bitOperatorPlus-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JF-Dot-Shinonome-14-Regular';
+  src: url("../assets/fonts/JF-Dot-Shinonome-14-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/JF-Dot-Shinonome-14-Regular.woff") format("woff"), url("../assets/fonts/JF-Dot-Shinonome-14-Regular.ttf") format("truetype"), url("../assets/fonts/JF-Dot-Shinonome-14-Regular.svg#JF-Dot-Shinonome-14-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* reset end */
+
+
+/* en */
+.font_satisfy{
+font-family: 'Satisfy', cursive;
+}
+.font_courgette{
+font-family: 'Courgette', cursive;
+}
+.font_caveat{
+font-family: 'Caveat', cursive;
+}
+.font_josefin_sans{
+font-family: 'Josefin Sans', sans-serif;
+}
+.font_quicksand{
+font-family: 'Quicksand', sans-serif;
+}
+.font_slabo_13px{
+font-family: 'Slabo 13px', serif;
+}
+.font_rajdhani{
+font-family: 'Rajdhani', sans-serif;
+}
+.font_lato{
+font-family: 'Lato', sans-serif;
+}
+.font_roboto{
+font-family: 'Roboto', sans-serif;
+}
+.font_oswald{
+font-family: 'Oswald', sans-serif;
+}
+.font_raleway{
+font-family: 'Raleway', sans-serif;
+}
+.font_opensans{
+font-family: 'Open Sans', sans-serif;
+}
+.font_montserrat{
+font-family: 'Montserrat', sans-serif;
+}
+.font_cardo{
+    font-family: 'Cardo', serif;
+}
+
+.font_amiri{
+    font-family: 'Amiri', serif;
+}
+.font_markazi_text{
+
+    font-family: 'Markazi Text', serif;
+}
+.font_amatic_sc{
+    font-family: 'Amatic SC', cursive;
+}
+.font_playfair_display{
+    font-family: 'Playfair Display', serif;
+}
+.font_specialelite{
+    font-family: 'Special Elite', cursive;
+}
+/* jp */
+.font_note_sans_jp{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.font_note_serif_jp{
+    font-family: 'Noto Serif JP', serif;
+}
+.font_sawarabi_mincho{
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+.font_sawarabi_gothic{
+    font-family: 'Sawarabi Gochic', sans-serif;
+}
+
+.font_8bit{
+    font-family: "8bitOperatorPlus-Bold","JF-Dot-Shinonome-14-Regular", monospace;
+
+}
+.font_apple{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Hiragino Kaku Gothic ProN,"メイリオ",meiryo,sans-serif;
+
+}
+/* font end */
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Amiri','Noto Serif JP',"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    color: #967c5e;
+    font-size: 1rem;
+}
+*{
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+img{
+    vertical-align: top;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.tc{
+    text-align: center;
+}
+.bk_alpha{
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+nav{
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 5em;
+}
+nav ul li{
+    width: 20%;
+    display: block;
+    vertical-align: middle;
+    text-align:center;
+    font-size: 2em;
+    font-family: 'Amiri', serif;
+}
+#slider{
+    width: 100%;
+
+    height: 80vh;
+    overflow: hidden;
+    position:relative;
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+#slider .parts{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 1;
+    transition: all 1.5s ease 0s;
+    -webkit-transition: all 1.5s ease 0s;
+    -moz-transition: all 1.5s ease 0s;
+    -o-transition: all 1.5s ease 0s;
+    z-index:1;
+}
+
+#slider .str{
+    z-index:2;
+    position: absolute;
+    left:0%;
+    bottom: 0;
+    width: 50%;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    line-height: 1.5em;
+    font-size: 2em;
+    color: #fff;
+}
+#slider .str span{
+    opacity: 0;
+}
+.opa1{
+    opacity: 1 !important;
+}
+
+.opa0{
+    opacity: 0 !important;
+}
+
+.obj_down{
+    top: -4rem !important;
+}
+.obj_up{
+    top: 4rem !important;
+}
+#slider div img{
+    object-fit: cover;
+    filter: contrast(70%);
+    width: 100%;
+    height: 100%;
+}
+
+#infomation{
+    margin-top: 200px;
+    width: 100%;
+    height: 400px;
+    background-image: url(//www.nejiweb.com/assets/images/flower/12.png),url(//www.nejiweb.com/assets/images/flower/13.png),url(//www.nejiweb.com/assets/images/flower/14.png),url(//www.nejiweb.com/assets/images/flower/15.png);
+    background-position: 5% top,20% bottom,80% bottom,90% 50%;
+    background-size: auto 40%,auto 60%,auto 50%,auto 75%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+    opacity: 1;
+    transition: opacity 1s linear 0s, top .8s linear 0s;
+    -webkit-transition: opacity 1s linear 0s, top .8s linear 0s;
+    -moz-transition: opacity 1s linear 0s, top .8s linear 0s;
+    -o-transition: opacity 1s linear 0s, top .8s linear 0s;
+
+}
+#infomation p{
+    text-align:center;
+    z-index: 2;
+}
+#infomation p:first-child{
+    margin-top: 2em;
+    font-size: 4em;
+    text-transform: uppercase;
+
+}
+#infomation p:nth-child(2){
+    margin-top: 1em;
+    font-size: 1.8em;
+}
+
+#imgcontentarea{
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 80%;
+    transition: opacity 1s linear 0s, top .8s linear 0s;
+    -webkit-transition: opacity 1s linear 0s, top .8s linear 0s;
+    -moz-transition: opacity 1s linear 0s, top .8s linear 0s;
+    -o-transition: opacity 1s linear 0s, top .8s linear 0s;
+    position:relative;
+    top:0;
+    opacity: 1;
+}
+#imgcontentarea div:first-child img{
+    filter: contrast(70%);
+    width: 100%;
+}
+#imgcontentarea div:nth-child(2){
+    margin-top: 0.3em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#imgcontentarea div:nth-child(2) img{
+    filter: contrast(70%);
+    width: 33%;
+}
+
+#detailcontentarea{
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 80%;
+}
+
+#detailcontentarea .box{
+    position: relative;
+    top: 0;
+    opacity: 1;
+    height: 600px;
+    margin-top: 2em;
+    overflow: hidden;
+    transition: opacity 1s linear 0s, top .8s linear 0s;
+    -webkit-transition: opacity 1s linear 0s, top .8s linear 0s;
+    -moz-transition: opacity 1s linear 0s, top .8s linear 0s;
+    -o-transition: opacity 1s linear 0s, top .8s linear 0s;
+}
+#detailcontentarea .box .str{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    top: 10%;
+    background-color:rgba(247,246,235,0.5);
+    padding: 2em;
+    padding-top: 6em;
+
+}
+#detailcontentarea .box .str p:first-child{
+    font-size: 2em;
+    line-height: 2em;
+}
+#detailcontentarea .box .str p:nth-child(2),#detailcontentarea .box .str p:nth-child(3){
+    font-size: 4em;
+    line-height: 1.3em;
+}
+#detailcontentarea .box .str p:nth-child(4){
+        font-size: 2em;
+        line-height:2em;
+        margin-top: 1em;
+}
+#detailcontentarea .box img{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    filter: contrast(50%);
+}
+#detailcontentarea .box:first-child  .str,#detailcontentarea .box:nth-child(3) .str{
+    left: 50%;
+
+}
+#detailcontentarea .box:nth-child(2) img,#detailcontentarea .box:nth-child(4) img{
+    left: 40%;
+}
+#detailcontentarea .box{
+    background-repeat:  no-repeat;
+}
+#detailcontentarea .box:first-child{
+    background-image:url(//www.nejiweb.com/assets/images/flower/16.png);
+    background-position: right 10%;
+    background-size: 20%;
+}
+#detailcontentarea .box:nth-child(2){
+    background-image:url(//www.nejiweb.com/assets/images/flower/17.png);
+    background-position: 15% 85%;
+    background-size: 15%;
+}
+#detailcontentarea .box:nth-child(3){
+    background-image:url(//www.nejiweb.com/assets/images/flower/18.png);
+    background-position: right 35%;
+    background-size: 15%;
+}
+#detailcontentarea .box:nth-child(4){
+    background-image:url(//www.nejiweb.com/assets/images/flower/19.png);
+    background-position: 20% 75%;
+    background-size: 10%;
+}
+
+footer{
+    width: 100%;
+    margin-top: 200px;
+    height: 50vh;
+    background: -ms-linear-gradient(top,#FFF,#fff 10%,transparent),fixed,url(//www.nejiweb.com/assets/images/flower/24.jpg);
+    background: -moz-linear-gradient(top,#FFF,#fff 10%,transparent),fixed,url(//www.nejiweb.com/assets/images/flower/24.jpg);
+    background: -webkit-linear-gradient(top,#FFF,#fff 10%,transparent),fixed,url(//www.nejiweb.com/assets/images/flower/24.jpg);
+    background: linear-gradient(top,#FFF,#fff 10%,transparent),fixed,url(//www.nejiweb.com/assets/images/flower/24.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+}
+
+footer .btm{
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+}
+@media screen and (max-width: 860px) {
+    #slider{
+        width:100%;
+        padding: 0;
+        height: 40vh;
+    }
+    #infomation{
+        margin-top: 3em;
+        height: 20vh;
+    }
+    #infomation p:first-child{
+        margin-top:1em;
+    }
+    #imgcontentarea{
+        width: 100%;
+        margin-top: 3em;
+    }
+
+    footer{
+        height: 20vh;
+    }
+    nav{
+        width: initial;
+        padding: initial;
+        position: absolute;
+        width: 100%;
+        left:0;
+        z-index:2;
+        background:#fff;
+        width: 100%;
+    }
+    nav ul{
+        width: initial;
+        display: initial;
+        height: initial;
+        align-items: initial;
+        width: 100%;
+    }
+
+    nav ul li{
+        width: initial;
+        display: initial;
+        vertical-align: initial;
+        text-align:initial;
+        font-size: initial;
+        width: 100%;
+        display: block;
+        text-align:center;
+        line-height: 3em;
+
+    }
+}
