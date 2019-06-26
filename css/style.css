@@ -455,7 +455,12 @@ footer .btm img{
     #slider{
         width:100%;
         padding: 0;
-        height: 40vh;
+        height: 100vh;
+    }
+    #slider .str{
+        width: 100%;
+        bottom: initial;
+        top: 30%;
     }
     #infomation{
         margin-top: 3em;
@@ -468,9 +473,34 @@ footer .btm img{
         width: 100%;
         margin-top: 3em;
     }
-
+    #detailcontentarea{
+        margin-top: 3em;
+        width: 100%;
+    }
+    #detailcontentarea .box img{
+        left: 0 !important;
+        width: 100% !important;
+        height: 30em !important;
+        position: initial;
+    }
+    #detailcontentarea .box .str{
+        width: 100%;
+        left: 0 !important;
+        position:initial;
+        height: initial;
+    }
+#detailcontentarea .box .str p:nth-child(2), #detailcontentarea .box .str p:nth-child(3){
+    font-size: 2em;
+}
+#detailcontentarea .box .str p:nth-child(4){
+    font-size: 1.5em;
+}
     footer{
         height: 20vh;
+        margin-top: 100px;
+    }
+    header{
+        display: none;
     }
     nav{
         width: initial;
