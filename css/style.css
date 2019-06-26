@@ -344,6 +344,7 @@ a:visited{
 #imgcontentarea div:nth-child(2) img{
     filter: contrast(70%);
     width: 33%;
+    object-fit: cover;
 }
 
 #detailcontentarea{
