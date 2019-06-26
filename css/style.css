@@ -249,6 +249,7 @@ nav ul li{
     line-height: 1.5em;
     font-size: 2em;
     color: #fff;
+    text-shadow: 8px 4px 6px #1d1d1d;
 }
 #slider .str span{
     opacity: 0;
@@ -474,6 +475,11 @@ footer .btm img{
         width: 100%;
         margin-top: 3em;
     }
+    #imgcontentarea div:nth-child(2) img{
+        height: 10em;
+    }
+
+
     #detailcontentarea{
         margin-top: 3em;
         width: 100%;
