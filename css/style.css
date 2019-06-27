@@ -180,7 +180,6 @@ img{
     background-color: rgba(255,255,255,0.5);
     width: 100%;
     height: 100%;
-    position: absolute;
 }
 header{
     position: fixed;
@@ -453,7 +452,7 @@ footer .btm img{
     position:relative;
     top: -0.5em;
 }
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 768px) {
     #slider{
         width:100%;
         padding: 0;
@@ -466,7 +465,7 @@ footer .btm img{
     }
     #infomation{
         margin-top: 3em;
-        height: 20vh;
+        height: initial;
     }
     #infomation p:first-child{
         margin-top:1em;
@@ -478,31 +477,82 @@ footer .btm img{
     #imgcontentarea div:nth-child(2) img{
         height: 10em;
     }
+    #detailcontentarea {
+        margin: initial;
+        width: initial;
 
+    }
+    #detailcontentarea .box{
+        position: initial;
+        top: initial;
+        opacity: initial;
+        height: initial;
+        margin: initial;
+        overflow: initial;
+    }
+    #detailcontentarea .box:first-child{
+        margin-top: 3em;
+    }
+    #detailcontentarea .box img{
+        position: initial;
+        width: initial;
+        height: initial;
+        width: 100%;
 
+    }
+    #detailcontentarea .box .str {
+        position: initial;
+        width: initial;
+        height: initial;
+        top:initial;
+        background-color: rgba(247,246,235,0.5);
+        padding: initial;
+        left: initial;
+
+        padding: 1em 1em 2em 1em;
+    }
+    #detailcontentarea .box .str p:first-child{
+        font-size: 1em;
+    }
+    #detailcontentarea .box .str p:nth-child(2), #detailcontentarea .box .str p:nth-child(3){
+        font-size: 2em;
+    }
+    #detailcontentarea .box .str p:nth-child(4){
+        font-size: 1.5em;
+    }
+
+/*
     #detailcontentarea{
         margin-top: 3em;
         width: 100%;
     }
+    #detailcontentarea .box{
+        height: 50vh;
+    }
     #detailcontentarea .box img{
         left: 0 !important;
         width: 100% !important;
-        height: 30em !important;
+        height: 50% !important;
         position: initial;
     }
     #detailcontentarea .box .str{
         width: 100%;
+        height: 50%;
         left: 0 !important;
         position:initial;
         height: initial;
+        padding-top: 3em;
     }
-#detailcontentarea .box .str p:nth-child(2), #detailcontentarea .box .str p:nth-child(3){
-    font-size: 2em;
-}
-#detailcontentarea .box .str p:nth-child(4){
-    font-size: 1.5em;
-}
-    footer{
+    #detailcontentarea .box .str p:{
+        font-size: 2em;
+    }
+    #detailcontentarea .box .str p:nth-child(2), #detailcontentarea .box .str p:nth-child(3){
+        font-size: 2em;
+    }
+    #detailcontentarea .box .str p:nth-child(4){
+        font-size: 1.5em;
+    }
+*/    footer{
         height: 20vh;
         margin-top: 100px;
     }
